@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (4.5.0)
+  - Apollo (0.20.0):
+    - Apollo/Core (= 0.20.0)
+  - Apollo/Core (0.20.0)
+  - Apollo/SQLite (0.20.0):
+    - Apollo/Core
+    - SQLite.swift (= 0.12.2)
+  - Apollo/WebSocket (0.20.0):
+    - Apollo/Core
+    - Starscream (= 3.1.1)
+  - IQKeyboardManagerSwift (6.0.4)
+  - ReachabilitySwift (5.0.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - Starscream (3.1.1)
+
+DEPENDENCIES:
+  - Alamofire (= 4.5.0)
+  - Apollo
+  - Apollo/SQLite
+  - Apollo/WebSocket
+  - IQKeyboardManagerSwift (= 6.0.4)
+  - ReachabilitySwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Apollo
+    - IQKeyboardManagerSwift
+    - ReachabilitySwift
+    - SQLite.swift
+    - Starscream
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Apollo: 46b40c7023c1d49f2220a0364cdff8829674d9d3
+  IQKeyboardManagerSwift: 36dbe324b4f9793f5f41ba5227f3e7c76dfefd50
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+
+PODFILE CHECKSUM: 504c614cf77d59dbc5e32c71f67396d7b1fabf53
+
+COCOAPODS: 1.8.0.beta.2
